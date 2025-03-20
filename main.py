@@ -8,15 +8,13 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-# Load training data
+#load training and test data
 df_train = pd.read_csv('/kaggle/input/fraud-detection/fraudTrain.csv')
 df_train.head(5)
-
-# Load test data
 df_test = pd.read_csv('/kaggle/input/fraud-detection/fraudTest.csv')
 df_test.head(5)
 
-# Size of both dataframes
+# Size of dataframes
 print(f"The shape of train set: {df_train.shape}")
 print(f"Test shape of test set: {df_test.shape}")
 
