@@ -8,9 +8,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-df_train = pd.read_csv('/kaggle/input/fraud-detection/fraudTrain.csv')
+df_train = pd.read_csv('fraudTrain.csv')
 df_train.head(5)
-df_test = pd.read_csv('/kaggle/input/fraud-detection/fraudTest.csv')
+df_test = pd.read_csv('fraudTest.csv')
 df_test.head(5)
 
 print(f"The shape of train set: {df_train.shape}")
