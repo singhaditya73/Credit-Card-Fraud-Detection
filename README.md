@@ -20,16 +20,6 @@ Files used:
 - `fraudTrain.csv`
 - `fraudTest.csv`
 
----
-
-## 🛠 Steps to Run the Project:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/singhaditya73/Credit-Card-Fraud-Detection.git
-   cd fraud-detection-model
-2. pip install -r requirements.txt
-3. jupyter notebook notebook.ipynb
-
 🧠 Machine Learning Models Used:
 ✅ Logistic Regression
 ✅ Random Forest Classifier
